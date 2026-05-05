@@ -30,6 +30,8 @@ Contributions and corrections are welcome!
 3. Include the following files in your skill folder:
    - `SKILL.md` — the skill instructions with `name` and `description` frontmatter (folder name must match `name` exactly)
    - `README.md` — description of what the skill does, what you get, and a contribution table with your name, GitHub handle, and publish date
+   - `assets/sample.json` — metadata for the PnP community samples gallery
+   - `assets/preview.png` — a screenshot showing the skill's output (used in the samples gallery)
 4. Open a pull request with a short description of what the skill does
 
 ---

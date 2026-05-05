@@ -32,7 +32,14 @@ A skill is a folder containing a `SKILL.md` and a `README.md`. The folder name m
 
 **Where it goes in SharePoint:** `Skills/<skill-name>/SKILL.md` (upload the skill folder directly — the README stays in the repo for documentation)
 
-**Required files:**
+**Required files per skill folder:**
+
+| File | Purpose |
+|---|---|
+| `SKILL.md` | Skill instructions with `name` and `description` frontmatter |
+| `README.md` | Description, what you get, and contribution credits |
+| `assets/sample.json` | Metadata for the PnP community samples gallery |
+| `assets/preview.png` | Screenshot of the skill's output for the samples gallery |
 
 **`SKILL.md`** — the skill instructions:
 
@@ -79,4 +86,4 @@ Skills work best when they are:
 - **Self-contained** — no external dependencies required to use it
 - **Documented** — `SKILL.md` frontmatter for agent activation, `README.md` for human readers and contribution credits
 
-To contribute, create a feature branch, add your skill folder to the `Skills/` directory with both required files, and submit a pull request with a short description of what the skill does.
+To contribute, create a feature branch, add your skill folder to the `Skills/` directory with all four required files, and submit a pull request with a short description of what the skill does.
