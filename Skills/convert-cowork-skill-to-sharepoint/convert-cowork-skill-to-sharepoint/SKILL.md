@@ -125,7 +125,7 @@ Use this folder-structure rubric:
 
 If approved to save:
 - If the source skill already exists in this site's `AgentAssets/Skills`, update that folder.
-- If the source came from OneDrive or a `.zip`, create a new folder in `AgentAssets/Skills`.
+- If the source came from OneDrive or a `.zip`, use the `/create-skill` skill to create the skill with the new version of the file(s).
 - Do not overwrite unrelated files.
 
 If converting an existing `AgentAssets/Skills` folder, identify supporting files that are no longer needed. Leave them in place unless the user explicitly approves deletion, but list them in the final output as deprecated files the user may delete.
